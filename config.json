@@ -1,0 +1,95 @@
+{
+
+ "Account": {
+"Username": "new551",
+     "Password": "zxcvbnm"
+     },
+ "Target Profit": "2",
+ "Target Win": "10000",
+ "Lose Target": "5",
+ "Reset If Target Profit": "OFF",
+ "Reset If Target Win": "OFF",
+ "Interval": "0",
+ "Config": [{
+
+     "Name Bet Set": "1⃣ Mining Chance 81",
+     "Base Bet": "0.0001",
+     "Max Bet": "2",
+     "Chance": "85",
+     "Random Chance": {
+          "Toggle": "ON",
+          "Min": "82",
+          "Max": "92"
+        },
+     "Bet": {
+          "Bet": "Hi",
+          "Hi / Low": {
+              "Toggle": "OFF",
+              "If Lose": "30",
+              "If Win": "30"
+            }
+        },
+     "If Win": "1.65",
+     "If Lose": "2.26",
+     "Reset If Win": "3",
+     "Reset If Profit": "0.001",
+     "Interval": "0"
+     },{
+
+     "Name Bet Set": "2 - Mining Chance 45 %",
+     "Base Bet": "0.000001111111111111",
+     "Max Bet": "OFF",
+     "Chance": "45",
+     "Random Chance": {
+          "Toggle": "ON",
+          "Min": "5",
+          "Max": "50"
+        },
+     "Bet": {
+          "Bet": "Low",
+          "Hi / Low": {
+              "Toggle": "ON",
+              "If Lose": "1",
+              "If Win": "0"
+            }
+        },
+     "If Win": "1",
+     "If Lose": "1.77777777777",
+     "Reset If Win": "1",
+     "Reset If Profit": "0.00000001",
+     "Interval": "212"
+     },{
+
+     "Name Bet Set": "3 - Mining Chance 40 %",
+     "Base Bet": "0.02001111111111111",
+     "Max Bet": "OFF",
+     "Chance": "40",
+     "Random Chance": {
+          "Toggle": "OFF",
+          "Min": "5",
+          "Max": "50"
+        },
+     "Bet": {
+          "Bet": "Low",
+          "Hi / Low": {
+              "Toggle": "ON",
+              "If Lose": "3",
+              "If Win": "1"
+            }
+        },
+     "If Win": "2",
+     "If Lose": "2",
+     "Reset If Win": "1",
+     "Reset If Profit": "0.00000001",
+     "Interval": "212"
+     }
+  ],
+  "Auto Wd": {
+       "Toggle": "OFF",
+       "If Balance": "81",
+       "Wallet Address":"DCQHY3RuWHMaX88119whoT4G1kKS3wwesM",
+       "Amount": "31"
+      },
+  "User-Agent": "Android Phone / Chrome 65 [Mobile]:Mozilla/5.0 (Linux; Android 8.0; BLA-L29 Build/HUAWEIBLA-L29) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.6 Mobile Safari/537.36"
+
+}
